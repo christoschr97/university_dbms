@@ -15,6 +15,7 @@ public class ConnectToDB {
             while(rs.next()) {
                 System.out.println("first: " + rs.getInt(1));
                 System.out.println("second: " + rs.getString(2));
+                System.out.println("second: " + rs.getString(3));
             }
         } catch(SQLException e) {
             e.printStackTrace();
